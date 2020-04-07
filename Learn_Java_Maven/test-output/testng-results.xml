@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-07T20:36:31 IST" name="Default suite" finished-at="2020-04-07T20:36:59 IST" duration-ms="28179">
+    <groups>
+    </groups>
+    <test started-at="2020-04-07T20:36:31 IST" name="Default test" finished-at="2020-04-07T20:36:59 IST" duration-ms="28179">
+      <class name="screenshot.Screenshot01">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:screenshot.Screenshot01@12d4bf7e]" started-at="2020-04-07T20:36:31 IST" name="launchApplication" finished-at="2020-04-07T20:36:51 IST" duration-ms="19646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginIntoDemoWbShop()[pri:0, instance:screenshot.Screenshot01@12d4bf7e]" started-at="2020-04-07T20:36:51 IST" name="loginIntoDemoWbShop" finished-at="2020-04-07T20:36:54 IST" duration-ms="3754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoDemoWbShop -->
+        <test-method is-config="true" signature="takeScreenshot()[pri:0, instance:screenshot.Screenshot01@12d4bf7e]" started-at="2020-04-07T20:36:54 IST" name="takeScreenshot" finished-at="2020-04-07T20:36:55 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="logOutAndCloseBrowser()[pri:0, instance:screenshot.Screenshot01@12d4bf7e]" started-at="2020-04-07T20:36:55 IST" name="logOutAndCloseBrowser" finished-at="2020-04-07T20:36:59 IST" duration-ms="4048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutAndCloseBrowser -->
+      </class> <!-- screenshot.Screenshot01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
