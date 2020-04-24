@@ -1,29 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-07T20:36:31 IST" name="Default suite" finished-at="2020-04-07T20:36:59 IST" duration-ms="28179">
+  <suite started-at="2020-04-24T12:12:14 IST" name="Default suite" finished-at="2020-04-24T12:12:14 IST" duration-ms="162">
     <groups>
     </groups>
-    <test started-at="2020-04-07T20:36:31 IST" name="Default test" finished-at="2020-04-07T20:36:59 IST" duration-ms="28179">
-      <class name="screenshot.Screenshot01">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:screenshot.Screenshot01@12d4bf7e]" started-at="2020-04-07T20:36:31 IST" name="launchApplication" finished-at="2020-04-07T20:36:51 IST" duration-ms="19646" status="PASS">
+    <test started-at="2020-04-24T12:12:14 IST" name="Default test" finished-at="2020-04-24T12:12:14 IST" duration-ms="162">
+      <class name="com.FaceBookLogin.MainClass1">
+        <test-method signature="openApplication()[pri:0, instance:com.FaceBookLogin.MainClass1@23529fee]" started-at="2020-04-24T12:12:14 IST" name="openApplication" finished-at="2020-04-24T12:12:14 IST" duration-ms="97" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: C:\Users\USER\git\Learn_Java_Maven\Learn_Java_Maven\Learn_Java_Maven\drivers\chromedriver_80.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\USER\git\Learn_Java_Maven\Learn_Java_Maven\Learn_Java_Maven\drivers\chromedriver_80.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.BaseClass.WrapperClass.launchApplication(WrapperClass.java:12)
+at com.FaceBookLogin.MainClass1.openApplication(MainClass1.java:10)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="loginIntoDemoWbShop()[pri:0, instance:screenshot.Screenshot01@12d4bf7e]" started-at="2020-04-07T20:36:51 IST" name="loginIntoDemoWbShop" finished-at="2020-04-07T20:36:54 IST" duration-ms="3754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginIntoDemoWbShop -->
-        <test-method is-config="true" signature="takeScreenshot()[pri:0, instance:screenshot.Screenshot01@12d4bf7e]" started-at="2020-04-07T20:36:54 IST" name="takeScreenshot" finished-at="2020-04-07T20:36:55 IST" duration-ms="657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenshot -->
-        <test-method is-config="true" signature="logOutAndCloseBrowser()[pri:0, instance:screenshot.Screenshot01@12d4bf7e]" started-at="2020-04-07T20:36:55 IST" name="logOutAndCloseBrowser" finished-at="2020-04-07T20:36:59 IST" duration-ms="4048" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutAndCloseBrowser -->
-      </class> <!-- screenshot.Screenshot01 -->
+        </test-method> <!-- openApplication -->
+      </class> <!-- com.FaceBookLogin.MainClass1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
