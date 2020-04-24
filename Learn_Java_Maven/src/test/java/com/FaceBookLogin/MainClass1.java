@@ -4,9 +4,10 @@ import org.testng.annotations.Test;
 
 import com.BaseClass.WrapperClass;
 
-public class MainClass1 extends WrapperClass {
+public class MainClass1 {
+	WrapperClass application = new WrapperClass();
 	@Test
-	protected void openApplication() {
-		launchApplication();
+	protected void openApplication() throws InterruptedException {
+		application.launchApplication();
 	}
 }

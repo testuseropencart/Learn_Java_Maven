@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="screenshot.Screenshot01">
+      <class name="com.FaceBookLogin.MainClass1">
         <methods>
-          <include name="takeScreenshot"/>
-          <include name="logOutAndCloseBrowser"/>
-          <include name="loginIntoDemoWbShop"/>
-          <include name="launchApplication"/>
+          <include name="openApplication"/>
         </methods>
-      </class> <!-- screenshot.Screenshot01 -->
+      </class> <!-- com.FaceBookLogin.MainClass1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
