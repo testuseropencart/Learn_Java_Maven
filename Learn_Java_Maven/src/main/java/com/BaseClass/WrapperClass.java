@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WrapperClass {
 	private WebDriver driver;
-	public void launchApplication() throws InterruptedException {
+	protected void launchApplication() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver_80.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
